@@ -20,8 +20,11 @@
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-whitelist": {},
-            "cordova-sqlite-storage": {}
+            "cordova-custom-config": {},
+            "cordova-plugin-file": {},
+            "cordova-plugin-media": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-whitelist": {}
         },
         "platforms": [
             "android",

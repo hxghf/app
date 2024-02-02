@@ -1,0 +1,11 @@
+apply plugin: 'java'
+sourceCompatibility = 1.8
+version = '0.1.0' 
+
+repositories {
+    google()
+}
+
+dependencies {
+  classpath 'com.android.tools.build:gradle:3.6.4'
+}
